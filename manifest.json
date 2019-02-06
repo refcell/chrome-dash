@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "ChromeDash",
+  "description": "Test Dashboard for weird chrome stuff.",
+  "version": "1.0.0",
+  "author": "Andreas Bigger",
+  "browser_action": {
+    "default_icon": "logo/logo.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "logo/favicon.png",
+    "48": "logo/logo.png",
+    "128": "logo/logo.png"
+  },
+  "chrome_url_override": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "contextMenus",
+    "declarativeContent",
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
