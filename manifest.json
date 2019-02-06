@@ -14,7 +14,7 @@
     "128": "logo/logo.png"
   },
   "chrome_url_override": {
-    "newtab": "newtab.html"
+    "newtab": "src/index.html"
   },
   "permissions": [
     "http://*/*",
